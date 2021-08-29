@@ -4,7 +4,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((200, 200))
 
-invisible_man = pygame.Rect(10,10,100,100)
+invisible_box = pygame.Rect(10,10,100,100)
 
 change = 10
 #for quiz
@@ -12,7 +12,7 @@ change = 10
     
     # Condition when i reaches 20 or greater, pause a second and close the screen
     
-    pygame.draw.rect(screen, (0,0,0), invisible_man)        
+    pygame.draw.rect(screen, (0,0,0), invisible_box)        
     
     # change the x,y coordinates
     
